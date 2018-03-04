@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Reserva de Hotel On line </title>
+  <link rel="stylesheet" href="formato_formulario.css">
+</head>
+  <form action="mailto:reservas@mihotel.com" method="post">
+    <div>
+      <h1>MI HOTEL reserva on line </h1>
+    </div>
+    <div>
+      <label for ="nombre">Nombre:</label>
+      <input type="text" name="nombre"/>
+    </div>
+    <div>
+        <label for ="apellidos">Apellidos:</label>
+        <input type="text" name="Apellidos"/>
+    </div>
+    <div>
+      <label for ="telefono">Teléfono:</label>
+      <input type="text" name= "Teléfono"/>
+    </div>
+    <div>
+      <label for ="email">E-mail:</label>
+      <input type="email" name= "email"/>
+    </div>
+    <div>
+      <label for ="noches">Número de noches:</label>
+      <input type="number" name= "noches"/>
+    </div>
+    <div>
+      <b>Fecha de entrada</b>:
+      <select>
+        <option>dia</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+        <option>7</option>
+        <option>8</option>
+        <option>9</option>
+        <option>10</option>
+        <option>11</option>
+        <option>12</option>
+        <option>13</option>
+        <option>15</option>
+        <option>16</option>
+        <option>17</option>
+        <option>18</option>
+        <option>19</option>
+        <option>20</option>
+        <option>21</option>
+        <option>22</option>
+        <option>23</option>
+        <option>24</option>
+        <option>25</option>
+        <option>26</option>
+        <option>27</option>
+        <option>28</option>
+        <option>29</option>
+        <option>30</option>
+        <option>31</option>
+      </select>
+
+      <select>
+        <option>mes</option>
+        <option>Enero</option>
+        <option>Febrero</option>
+        <option>Marzo</option>
+        <option>Abril</option>
+        <option>Mayo</option>
+        <option>Junio</option>
+        <option>Julio</option>
+        <option>Agosto</option>
+        <option>Septiembre</option>
+        <option>Octubre</option>
+        <option>Noviembre</option>
+        <option>Diciembre</option>
+      </select>
+    </div>
+    <div>
+      <b>Tipo de Habitación:</b>
+      <input type="radio" name="Habitación" value="Simple"/> Simple
+      <input type="radio" name="Habitación"value="Doble"/> Doble
+      <input type="radio" name="Habitación"value="Matrimonio"/> Matrimonio
+    </div>
+      <div> <b>Opciones extra a contratar:</b>
+        <div></div>
+        <div></div>
+        <input type="checkbox" name="Desayuno"/> Desayuno
+        <input type="checkbox" name="Comida"/> Comida
+        <input type="checkbox" name="Cena"/> Cena
+        <input type="checkbox" name="Desayuno"/> Cama Supletoria
+      </div>
+    <div>
+      <b>Comentarios:</b>
+      <textarea rows = "5" cols = "100"></textarea>
+    </div>
+    <div class = "button">
+      <button type = "submit"> Envia tu mensaje </button>
+      <button type = "reset"> Restablece valores </button>
+    </div>
+    
+  </form>
+</html>

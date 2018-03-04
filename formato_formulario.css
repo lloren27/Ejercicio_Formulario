@@ -1,0 +1,77 @@
+form {
+  /* Para centrar la pagina */
+  margin: 0 auto;
+  width: 400px;
+
+  /* crea los limites de form */
+  padding: 1em;
+  border: 1px solid #000000;
+  border-radius: 1em;
+}
+
+div + div {
+  margin-top: 1em;
+}
+
+label {
+  /* asegurar que las etiquetas tengan el mismo tamaño y esten alineados */
+  display: inline-block;
+  width: 90px;
+  text-align: center;
+  font: 1em monospace;
+}
+
+textarea {
+  /* damos el mismo tipo de letra al textarea que al resto del formulario */
+  font: 1em monospace;
+
+  /* dar el mismo tamaño */
+  width: 275px;
+
+  border: 1px solid #000000;
+}
+
+textarea {
+
+  border-color: #000000;
+
+   /* para alinear con la etiqueta */
+    vertical-align: top;
+
+    /* dar espacio para escribir*/
+    height: 5em;
+
+    /* permite desplazarse en vertical en el textarea*/
+    resize: vertical;
+}
+
+.button {
+  /*para dar la misma posicion a los botones y al textarea */
+  padding-left: 90px; 
+}
+
+button {
+  /* margen extra */
+  margin-left: .5em;
+  font:1em monospace;
+}
+
+h1{
+
+margin:0 auto;
+font:2em monospace;
+color: #6A5ACD;
+
+}
+
+div{
+  font:1em monospace;
+}
+
+select{
+  font:1em monospace;
+}
+input{
+  margin:0 auto;
+  font:1em monospace;
+}
